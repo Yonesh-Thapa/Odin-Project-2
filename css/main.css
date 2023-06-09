@@ -1,0 +1,47 @@
+#flex-container{
+    display:flex;
+    align-items: center;
+    gap:20px;
+    
+    min-width:100vw;
+
+}
+li{
+    list-style-type: none;
+    flex-basis: 100px;
+}
+.logo{
+    width:200px;
+    margin-right:auto;
+}
+nav{
+    background-color: #00000022;
+    
+
+}
+body{
+    
+    padding:0;
+    margin:0;
+}
+#myVideo{
+   
+    position:fixed;
+    max-width:100vw;
+    min-height:100vh;
+    right:0;
+    left:0;
+    top:0;
+    
+    object-fit: contain;
+}
+ul{
+    position:fixed;
+    background-color: #33374188;
+}
+a{
+    color:white;
+    text-decoration: none;
+    font-size: 3rem
+    
+}
